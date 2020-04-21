@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>xjc</title>
+    <link rel="stylesheet" type="text/css" href="view/xjc.css">
+    <script type="text/javascript" src="libs/jquery-3.2.0.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+    <!-- <link rel="import" href="page1.html" id="page1"> -->
+</head>
+<script language="Javascript">
+document.oncontextmenu = new Function("event.returnValue=false");
+document.onselectstart = new Function("event.returnValue=false");
+</script>
+
+<body>
+<!--     <div id="page1"></div>
+    <script>
+    $("#page1").load("page1.html");
+    </script> -->
+    <div class="main">
+        <div class="xjcbox">
+            <div class="startGame">
+                开始游戏
+            </div>
+            <div class="outer">
+                <div id="box">
+                    <div class="one">
+                        <div class="one1">0</div>
+                        <div class="one1"></div>
+                        <div class="one1"></div>
+                        <div class="one1"></div>
+                        <div class="one1">1</div>
+                        <div class="one1"></div>
+                        <div class="one1"></div>
+                        <div class="one1"></div>
+                        <div class="one1"></div>
+                    </div>
+                    <div class="two">
+                        <div class="one2"></div>
+                        <div class="one2"></div>
+                        <div class="one2">2</div>
+                        <div class="one2"></div>
+                        <div class="one2"></div>
+                        <div class="one2"></div>
+                        <div class="one2">3</div>
+                        <div class="one2"></div>
+                        <div class="one2"></div>
+                    </div>
+                    <div class="the">
+                        <div class="one3"></div>
+                        <div class="one3">4</div>
+                        <div class="one3"></div>
+                        <div class="one3"></div>
+                        <div class="one3">5</div>
+                        <div class="one3"></div>
+                        <div class="one3"></div>
+                        <div class="one3"></div>
+                        <div class="one3"></div>
+                    </div>
+                    <div class="fou">
+                        <div class="one4"></div>
+                        <div class="one4"></div>
+                        <div class="one4"></div>
+                        <div class="one4"></div>
+                        <div class="one4"></div>
+                        <div class="one4">6</div>
+                        <div class="one4"></div>
+                        <div class="one4">7</div>
+                        <div class="one4"></div>
+                    </div>
+                    <div class="fiv">
+                        <div class="one5"></div>
+                        <div class="one5">8</div>
+                        <div class="one5"></div>
+                        <div class="one5"></div>
+                        <div class="one5"></div>
+                        <div class="one5"></div>
+                        <div class="one5">9</div>
+                        <div class="one5"></div>
+                        <div class="one5"></div>
+                    </div>
+                    <div class="six">
+                        <div class="one6"></div>
+                        <div class="one6"></div>
+                        <div class="one6"></div>
+                        <div class="one6"></div>
+                        <div class="one6">10</div>
+                        <div class="one6"></div>
+                        <div class="one6"></div>
+                        <div class="one6">11</div>
+                        <div class="one6"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="game_windows">
+            <div class="ctr">
+                <div class="ctr1">游戏结束</div>
+                <div class="ctr2">得分:<span class="finalScore"></span></div>
+                <div class="ctr3">重新开始</div>
+            </div>
+            <div class="life">
+                <img src="src/xinxing.png" class="xinxingImg">
+                <label class="lifeNum">10</label>
+            </div>
+            <div class="score">得分:0</div>
+            <div class="goLeft">L</div>
+            <div class="fire">fire</div>
+            <div class="goRight">R</div>
+        </div>
+        <!-- 不知道为什么id的输出形式和class不一样 -->
+        <!-- <div id="aa" class="haha"></div> -->
+    </div>
+    <script type="text/javascript" src="model/model.js"></script>
+    <script type="text/javascript" src="view/xjc.js"></script>
+</body>
+
+</html>
